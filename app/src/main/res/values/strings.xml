@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Visita   Granollers</string>
+    <string name="estrelles_prompt">Selecciona les estrelles</string>
+    <string-array name="filtrarPerEstrelles">
+        <item>Selecciona una categoria</item>
+        <item>Tots</item>
+        <item>5 estrelles</item>
+        <item>4 estrelles</item>
+        <item>3 estrelles</item>
+        <item>2 estrelles</item>
+        <item>1 estrelles</item>
+    </string-array>
+
+    <string name="tipus_prompt">Selecciona el tipus</string>
+    <string-array name="filtrarPerTipus">
+        <item>Selecciona un tipus</item>
+        <item>Tots</item>
+        <item>Italià</item>
+        <item>Japonés</item>
+        <item>Mediterrani</item>
+    </string-array>
+</resources>
