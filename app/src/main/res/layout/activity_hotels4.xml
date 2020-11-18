@@ -32,7 +32,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="160dp"
-            android:src="@drawable/restaurants" />
+            android:src="@drawable/hotels" />
 
         <LinearLayout
             android:layout_width="wrap_content"
