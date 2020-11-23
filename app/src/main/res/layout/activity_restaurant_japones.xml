@@ -32,7 +32,10 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="160dp"
-            android:src="@drawable/restaurants" />
+            android:src="@drawable/japones1"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -43,13 +46,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RESTAURANT"
+                android:text="Ogura"
                 android:textSize="35dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="C. de Nàpols, 189, 08013 Barcelona"
                 android:textSize="20dp"/>
 
             <LinearLayout
@@ -60,13 +63,15 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/web"/>
+                    android:src="@drawable/web"
+                    android:id="@+id/web1"/>
 
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="5dp"
-                    android:src="@drawable/telefono"/>
+                    android:src="@drawable/telefono"
+                    android:id="@+id/telefono1"/>
 
                 <RatingBar
                     android:id="@+id/ratingRestaurant1"
@@ -76,7 +81,8 @@
                     android:numStars="5"
                     android:stepSize="0.1"
                     android:isIndicator="true"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:rating="3.5" />
 
             </LinearLayout>
 
@@ -93,7 +99,10 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="160dp"
-            android:src="@drawable/restaurants" />
+            android:src="@drawable/japones2"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -104,13 +113,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RESTAURANT"
+                android:text="Yen"
                 android:textSize="35dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="Carrer Gran de Gràcia, 180, 08012 Barcelona"
                 android:textSize="20dp"/>
 
             <LinearLayout
@@ -121,13 +130,15 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/web"/>
+                    android:src="@drawable/web"
+                    android:id="@+id/web2"/>
 
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="5dp"
-                    android:src="@drawable/telefono"/>
+                    android:src="@drawable/telefono"
+                    android:id="@+id/telefono2"/>
 
                 <RatingBar
                     android:id="@+id/ratingRestaurant2"
@@ -137,7 +148,8 @@
                     android:numStars="5"
                     android:stepSize="0.1"
                     android:isIndicator="true"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:rating="4.8" />
 
             </LinearLayout>
 
@@ -154,7 +166,10 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="160dp"
-            android:src="@drawable/restaurants" />
+            android:src="@drawable/japones3"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -165,13 +180,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RESTAURANT"
+                android:text="El japonés"
                 android:textSize="35dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="Passatge de la Concepció, 5, 08008 Barcelona"
                 android:textSize="20dp"/>
 
             <LinearLayout
@@ -182,13 +197,15 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/web"/>
+                    android:src="@drawable/web"
+                    android:id="@+id/web3"/>
 
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="5dp"
-                    android:src="@drawable/telefono"/>
+                    android:src="@drawable/telefono"
+                    android:id="@+id/telefono3"/>
 
                 <RatingBar
                     android:id="@+id/ratingRestaurant3"
@@ -198,7 +215,8 @@
                     android:numStars="5"
                     android:stepSize="0.1"
                     android:isIndicator="true"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:rating="4" />
 
             </LinearLayout>
 
