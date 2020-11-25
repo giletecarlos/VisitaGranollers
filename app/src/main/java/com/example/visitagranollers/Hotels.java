@@ -44,14 +44,15 @@ public class Hotels extends AppCompatActivity implements View.OnClickListener, A
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         Log.d("hola","position: " + position);
         switch (position) {
-            case 1:  startActivityForResult(cridaHotels4,1);
+            case 3:  startActivityForResult(cridaHotels4,1);
                 break;
-            case 2:  startActivityForResult(cridaHotels3,2);
+            case 4:  startActivityForResult(cridaHotels3,2);
                 break;
-            case 3:  startActivityForResult(cridaHotels2,3);
+            case 5:  startActivityForResult(cridaHotels2,3);
                 break;
         }
     }
+
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
