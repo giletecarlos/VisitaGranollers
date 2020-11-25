@@ -28,6 +28,7 @@ public class Hotels extends AppCompatActivity implements View.OnClickListener, A
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.filtrarPerEstrelles, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_list_item_activated_1);
         spinnerEstrelles.setAdapter(adapter);
+        spinnerEstrelles.setOnItemSelectedListener(this);
 
         cridaHotels4 = new Intent(this,Hotels4.class);
         cridaHotels3 = new Intent(this,Hotels3.class);
