@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class Hotels extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
 
     private Intent cridaHotels4, cridaHotels3, cridaHotels2;
@@ -42,17 +44,22 @@ public class Hotels extends AppCompatActivity implements View.OnClickListener, A
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        Log.d("hola","position: " + position);
-        switch (position) {
-            case 3:  startActivityForResult(cridaHotels4,1);
-                break;
-            case 4:  startActivityForResult(cridaHotels3,2);
-                break;
-            case 5:  startActivityForResult(cridaHotels2,3);
-                break;
+        if (position == 1 || position == 2 || position == 6)
+        {
+            Snackbar.make(view, "Secció en desenvolupament. Disculpi les molesties", Snackbar.LENGTH_SHORT).show();
+        }
+        else
+        {
+            switch (position) {
+                case 3:  startActivityForResult(cridaHotels4,1);
+                    break;
+                case 4:  startActivityForResult(cridaHotels3,2);
+                    break;
+                case 5:  startActivityForResult(cridaHotels2,3);
+                    break;
+            }
         }
     }
-
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {

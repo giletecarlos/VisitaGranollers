@@ -19,12 +19,18 @@ public class RestaurantItalia extends AppCompatActivity implements View.OnClickL
         setContentView(R.layout.activity_restaurant_italia);
 
         telefono1 = findViewById(R.id.telefono1);
+        telefono1.setOnClickListener(this);
         telefono2 = findViewById(R.id.telefono2);
+        telefono2.setOnClickListener(this);
         telefono3 = findViewById(R.id.telefono3);
+        telefono3.setOnClickListener(this);
 
         web1 = findViewById(R.id.web1);
+        web1.setOnClickListener(this);
         web2 = findViewById(R.id.web2);
+        web2.setOnClickListener(this);
         web3 = findViewById(R.id.web3);
+        web3.setOnClickListener(this);
     }
 
     @Override
@@ -40,17 +46,17 @@ public class RestaurantItalia extends AppCompatActivity implements View.OnClickL
                 break;
             case R.id.web1:
                 Uri webpage1 = Uri.parse("https://www.cecconisbarcelona.com/en?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness%C2%B4");
-                Intent irWeb1 = new Intent(Intent.ACTION_DIAL, webpage1);
+                Intent irWeb1 = new Intent(Intent.ACTION_VIEW, webpage1);
                 startActivity(irWeb1);
                 break;
             case R.id.telefono2:
-                Uri numero2 = Uri.parse("tel:664357778");
+                Uri numero2 = Uri.parse("tel:+34664357778");
                 Intent telefono2 = new Intent(Intent.ACTION_DIAL, numero2);
                 startActivity(telefono2);
                 break;
             case R.id.web2:
                 Uri webpage2 = Uri.parse("http://www.ilgiardinettodigracia.com/");
-                Intent irWeb2 = new Intent(Intent.ACTION_DIAL, webpage2);
+                Intent irWeb2 = new Intent(Intent.ACTION_VIEW, webpage2);
                 startActivity(irWeb2);
                 break;
             case R.id.telefono3:
@@ -60,7 +66,7 @@ public class RestaurantItalia extends AppCompatActivity implements View.OnClickL
                 break;
             case R.id.web3:
                 Uri webpage3 = Uri.parse("http://isabellas-restaurant.com/");
-                Intent irWeb3 = new Intent(Intent.ACTION_DIAL, webpage3);
+                Intent irWeb3 = new Intent(Intent.ACTION_VIEW, webpage3);
                 startActivity(irWeb3);
                 break;
         }

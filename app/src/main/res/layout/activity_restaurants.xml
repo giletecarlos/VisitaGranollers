@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/spinnerRestaurants"
+        android:layout_above="@+id/spinnerNom"
         android:gravity="center"
         android:text="RESTAURANTS"
         android:textSize="68dp"
@@ -20,12 +20,11 @@
         android:fontFamily="sans-serif-condensed"/>
 
     <Spinner
-        android:id="@+id/spinnerRestaurants"
+        android:id="@+id/spinnerNom"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_centerInParent="true"
         android:prompt="@string/tipus_prompt" />
-
 
 </RelativeLayout>
