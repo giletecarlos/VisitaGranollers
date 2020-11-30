@@ -32,7 +32,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="160dp"
-            android:src="@drawable/hotels" />
+            android:src="@drawable/verti" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -43,13 +43,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TITOL HOTEL"
+                android:text="Verti"
                 android:textSize="40dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="Ctra. de Ribes, 5"
                 android:textSize="20dp"/>
 
             <LinearLayout
@@ -60,23 +60,26 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/web"/>
+                    android:src="@drawable/web"
+                    android:id="@+id/wH21"/>
 
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="5dp"
-                    android:src="@drawable/telefono"/>
+                    android:src="@drawable/telefono"
+                    android:id="@+id/tfH21"/>
 
                 <RatingBar
-                    android:id="@+id/rating"
+                    android:id="@+id/ratingHotel31"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="?android:attr/ratingBarStyleSmall"
                     android:numStars="5"
                     android:stepSize="0.1"
                     android:isIndicator="true"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:rating="3.9"/>
 
             </LinearLayout>
 
@@ -94,7 +97,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="160dp"
-            android:src="@drawable/hotels" />
+            android:src="@drawable/ibis" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -105,13 +108,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TITOL HOTEL"
+                android:text="Ibis"
                 android:textSize="40dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="C. Can Gordi 1"
                 android:textSize="20dp"/>
 
             <LinearLayout
@@ -122,23 +125,26 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/web"/>
+                    android:src="@drawable/web"
+                    android:id="@+id/wH22"/>
 
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="5dp"
-                    android:src="@drawable/telefono"/>
+                    android:src="@drawable/telefono"
+                    android:id="@+id/tfH22"/>
 
                 <RatingBar
-                    android:id="@+id/rating"
+                    android:id="@+id/ratingHotel32"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="?android:attr/ratingBarStyleSmall"
                     android:numStars="5"
                     android:stepSize="0.1"
                     android:isIndicator="true"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:rating="4"/>
 
             </LinearLayout>
 
@@ -156,7 +162,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="160dp"
-            android:src="@drawable/hotels" />
+            android:src="@drawable/bandb" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -167,13 +173,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TITOL HOTEL"
+                android:text="B and B"
                 android:textSize="40dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="C/ Valldoriolf, 1"
                 android:textSize="20dp"/>
 
             <LinearLayout
@@ -184,32 +190,31 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/web"/>
+                    android:src="@drawable/web"
+                    android:id="@+id/wH23"/>
 
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="5dp"
-                    android:src="@drawable/telefono"/>
+                    android:src="@drawable/telefono"
+                    android:id="@+id/tfH23"/>
 
                 <RatingBar
-                    android:id="@+id/rating"
+                    android:id="@+id/ratingHotel33"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="?android:attr/ratingBarStyleSmall"
                     android:numStars="5"
                     android:stepSize="0.1"
                     android:isIndicator="true"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:rating="4.5"/>
 
             </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
-
-
-
-
 
 </LinearLayout>
