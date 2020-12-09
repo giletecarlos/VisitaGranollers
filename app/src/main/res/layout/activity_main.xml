@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
-        android:background="@color/background">
+        android:background="@color/background"
+        tools:context=".MainActivity">
 
 
         <!--LINEAR PART ESQUERRA-->
         <LinearLayout
+            android:id="@+id/izquierda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="5dp"
-            android:id="@+id/izquierda">
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/movies"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:src="@drawable/movies"
-                android:id="@+id/movies"/>
+                android:src="@drawable/movies" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/concesionaris"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/concesionaris"
-                    android:id="@+id/concesionaris"/>
+                    android:src="@drawable/concesionaris" />
 
             </LinearLayout>
 
@@ -45,43 +46,43 @@
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/transport"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/transport"
-                    android:id="@+id/transport"/>
+                    android:src="@drawable/transport" />
 
                 <ImageView
+                    android:id="@+id/parking"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/parking"
-                    android:id="@+id/parking"/>
+                    android:src="@drawable/parking" />
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/events"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:src="@drawable/events"
-                android:id="@+id/events"/>
+                android:src="@drawable/events" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <ImageView
+                    android:id="@+id/education"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/education"
-                    android:id="@+id/education"/>
+                    android:src="@drawable/education" />
 
                 <ImageView
+                    android:id="@+id/sports"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/sports"
-                    android:id="@+id/sports"/>
+                    android:src="@drawable/sports" />
             </LinearLayout>
 
             <LinearLayout
@@ -90,18 +91,18 @@
                 android:layout_marginBottom="12.5dp">
 
                 <ImageView
+                    android:id="@+id/weather"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/weather"
-                    android:id="@+id/weather"/>
+                    android:src="@drawable/weather" />
 
                 <ImageView
+                    android:id="@+id/knowledge"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/knowledge"
-                    android:id="@+id/knowledge"/>
+                    android:src="@drawable/knowledge" />
 
             </LinearLayout>
 
@@ -121,34 +122,34 @@
                 android:layout_marginRight="8dp">
 
                 <ImageView
+                    android:id="@+id/business"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/business"
-                    android:id="@+id/business"/>
+                    android:src="@drawable/business" />
 
                 <ImageView
+                    android:id="@+id/currency"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:src="@drawable/currency"
-                    android:id="@+id/currency"/>
+                    android:src="@drawable/currency" />
 
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/hotels"
                 android:layout_width="match_parent"
                 android:layout_height="198dp"
-                android:src="@drawable/hotels"
                 android:layout_marginRight="8dp"
-                android:id="@+id/hotels"/>
+                android:src="@drawable/hotels" />
 
             <ImageView
+                android:id="@+id/restaurants"
                 android:layout_width="match_parent"
                 android:layout_height="198dp"
-                android:src="@drawable/restaurants"
                 android:layout_marginRight="8dp"
-                android:id="@+id/restaurants"/>
+                android:src="@drawable/restaurants" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -156,22 +157,22 @@
                 android:layout_marginRight="8dp">
 
                 <ImageView
+                    android:id="@+id/cargaelectrica"
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
                     android:layout_weight="1"
-                    android:src="@drawable/cargaeletrica"
                     android:background="@color/morado"
-                    android:id="@+id/cargaelectrica"/>
+                    android:src="@drawable/cargaeletrica" />
 
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/infocovid"
                 android:layout_width="match_parent"
                 android:layout_height="195dp"
-                android:layout_marginBottom="45dp"
-                android:src="@drawable/infocovid"
                 android:layout_marginRight="8.2dp"
-                android:id="@+id/infocovid"/>
+                android:layout_marginBottom="45dp"
+                android:src="@drawable/infocovid" />
 
         </LinearLayout>
 
